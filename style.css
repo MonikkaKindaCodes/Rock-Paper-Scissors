@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    margin: 0;
+}
+
+.game-wrapper {
+    padding-top: 10%;
+}
+
+.buttons {
+    padding-top: 5%;
+    
+}
+
+
