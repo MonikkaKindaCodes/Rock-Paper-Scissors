@@ -13,13 +13,16 @@ body {
     margin: 0;
 }
 
+i {
+    color: #fff;
+}
+
 .game-wrapper {
     padding-top: 10%;
 }
 
 .buttons {
-    padding-top: 5%;
-    
+    padding: 10%;
 }
 
 
