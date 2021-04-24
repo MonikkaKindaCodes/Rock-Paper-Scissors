@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title></title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-</head>
-
-<body>
-  <div class="game-wrapper">
-    <div class="total-text">
-      <div class="title">
-        <h1>Rock, Paper, Scissors</h1>
+  <body>
+    <div class="game-wrapper">
+      <div class="total-text">
+        <div class="title">
+          <h1>Rock, Paper, Scissors</h1>
+        </div>
+        <div class="sub-title">
+          Play Rock, Paper, Scissors against the Computer. The first to 5 points
+          Wins!
+        </div>
       </div>
-      <div class="sub-title">
-        Play Rock, Paper, Scissors against the Computer. The first to 5 points
-        Wins!
+      <div class="score">
+        <p class="scores">
+          <span class="user-score">0</span> -
+          <span class="computer-score">0</span>
+        </p>
+      </div>
+      <div class="buttons">
+        <button class="rock">
+          <i class="far fa-hand-rock fa-5x"></i>
+        </button>
+        <button class="paper">
+          <i class="far fa-hand-paper fa-5x"></i>
+        </button>
+        <button class="scissors">
+          <i class="far fa-hand-scissors fa-5x"></i>
+        </button>
+        <div class="result">
+          <p>User chose Rock, Computer chose Scissors, User wins! :)</p>
+        </div>
       </div>
     </div>
-    <div class="buttons">
-      <button class="rock">
-        <i class="far fa-hand-rock fa-5x"></i>
-      </button>
-      <button class="paper">
-        <i class="far fa-hand-paper fa-5x"></i>
-      </button>
-      <button class="scissors">
-        <i class="far fa-hand-scissors fa-5x"></i>
-      </button>
-      <div class="result">
-        <p>User chose Rock, Computer chose Scissors, User wins! :)</p>
-      </div>
-    </div>
-  </div>
-  <script src="script.js" async defer></script>
-</body>
-
+    <script src="script.js" async defer></script>
+  </body>
 </html>
