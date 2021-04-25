@@ -32,6 +32,10 @@ a:hover {
   font-size: 30px;
 }
 
+a:active {
+  border-color: #fff;
+}
+
 .sub-title {
   font-size: 20px;
 }

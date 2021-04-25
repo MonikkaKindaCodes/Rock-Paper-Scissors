@@ -16,11 +16,16 @@ const computerPlay = function () {
   return randomChoice;
 };
 
-//Play Round function
-
-const playRound = function (playerSelection, computerSelection) {
-  computerSelection = computerPlay();
-  playerSelection = function (userChoice) {};
-};
-
-console.log(playRound());
+//Playround
+const playRound = function (userSelection, computerSelection) {
+  btn.forEach(function () {
+    btn.addEventListener("click", function(){
+  if (
+    (userChoice === "Rock" && computerChoice === "Scissors") ||
+    (userChoice === "Paper" && computerChoice === "Rock") ||
+    (userChoice === "Scissors" && computerChoice === "Paper")
+  ) {
+    resultText = `User Chooses ${userChoice}. Computer Chooses ${computerChoice}. User Wins!`;
+  } else {
+    resultText = `Computer Chooses ${computerChoice}. Computer Chooses ${userChoice}. Computer Wins!`;
+  }
